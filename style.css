@@ -1,0 +1,435 @@
+*, *:before, *:after{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:none;
+    list-style:none;
+    text-decoration:none;
+    vertical-align:baseline;
+    color:black;
+}
+
+html{box-sizing:border-box;}
+
+body, section, div, footer, header{
+    box-sizing:inherit;
+    position:relative;
+}
+
+h1{
+    font-family: 'Fahkwang', sans-serif;
+    /* font-family: 'Special Elite', cursive;  */
+}
+
+p{
+    /* font-family: 'East Sea Dokdo', cursive; */
+    /* text-transform:uppercase; */
+    /* font-family: 'Permanent Marker', cursive; */
+    font-family: 'Roboto', sans-serif;
+}
+
+body{}
+
+/* section{border:1px solid red;} */
+
+
+/*** title card ***/
+
+.title{
+    margin:10% auto;
+    position:relative;
+    width:60%;
+    text-align:center;
+}
+
+.imgTitle{
+    text-align:left;
+    width:50%;
+    height:50%;
+}
+
+.title .titleTag{
+    margin-top:160px;
+    margin-right:50px;
+    float:right;
+    width:40%;
+    text-align:left;
+}
+
+.title .titleTag p{
+    font-style:italic;
+    font-size:0.9rem;
+    text-transform:lowercase;
+    font-weight:600;
+    color:#222;
+}
+
+.title .titleTag p span{
+    font-style:italic;
+    font-size:0.8rem;
+    color: #ccc;
+}
+
+.title .titleTag .dateStamp{
+    text-transform: none;
+    font-style:italic;
+    font-size:0.7rem;
+    text-align:right;
+    padding-top:5px;
+    color: #ccc;
+}
+
+
+/*** Stage one - Dandelion ***/
+
+.one{
+    width:100%;
+    height:90vh;
+    display:flex;
+    justify-content:flex-start;
+    align-items:flex-end;
+}
+
+.imgOneA, .imgOneB{
+    width:45%;
+}
+
+.one p{
+    position:absolute;
+}
+
+.one1{
+    width:20%;
+    margin-top:-400px;
+    margin-left:380px;
+}
+
+.one2{
+    width:18%;
+    margin-top:-200px;
+    margin-left:600px;
+}
+
+.one3{
+    width:20%;
+    margin-top:-300px;
+    margin-left:1050px;
+}
+
+/*** Stage two - drawing girl ***/
+
+.two{
+    margin:5% auto;
+    width:70%;
+    height:100vh;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.imgTwoA{
+    width:60%;
+}
+
+.two1{width:30%;}
+
+/*** Stage three - Books ***/
+
+.three{
+    margin:0 auto 5%;;
+    width:70%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center; 
+}
+
+.imgThreeA{
+    width:40%;
+}
+.three1{
+    width:40%;
+}
+
+/*** Stage four - Crowd ***/
+.four{
+    margin: 0 auto;
+    width:100%;
+    text-align:center; 
+}
+
+.four1, .four2{
+    position:absolute;
+    background:white;
+    padding:14px;
+    border:5px solid black;
+    text-align:left;
+}
+
+.four1{
+    margin-top:-600px;
+    width:20%;
+    margin-left:160px;
+}
+
+.four2{
+    margin-top:-400px;
+    width:25%;
+    margin-left:900px;
+}
+
+/*** Stage five - handball ***/
+
+.five{
+    margin: 0 auto 5%;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.imgFiveA{
+    width:30%;
+}
+
+.five1, .five2, .five1-1, .five1-2, .five1-3{
+    position:absolute;
+    width:20%;
+}
+
+.five1{
+    margin-left:-300px;
+    margin-top:-100px;
+    width:15%;
+}
+
+.five1-1{
+    margin-left:-100px;
+    margin-top:-80px;
+}
+
+.five1-2{
+    margin-left:-130px;
+    margin-top:-50px;
+}
+
+.five1-3{
+    margin-left:-80px;
+    margin-top:-20px;
+}
+.five2{
+    margin-top:150px;
+    margin-left:360px;
+}
+
+/*** Stage six - the plunge ***/
+.six{
+    width:100%;
+    margin:0 auto 5%;
+    text-align:center;
+}
+
+.imgSixA{
+    width:80%;
+}
+
+.six1, .six2{
+    position:absolute;
+padding:14px;
+background:white;
+border:3px solid black;
+text-align:left;}
+
+.six1{
+    margin-top:-400px;
+    width:20%;
+    margin-left:200px;
+}
+
+.six2{
+    margin-top:-300px;
+    width:15%;
+    margin-left:900px;
+}
+
+/*** Stage seven - leaves ***/
+.seven{
+    width:100%;
+}
+
+.seven img{
+    width:30%;
+    margin:0 auto;
+    text-align:center;
+    display:block;
+}
+
+img.imgSevenA{
+    margin-left:280px;
+}
+
+img.imgSevenB{
+    margin-left:700px;
+    margin-top:-150px;
+}
+
+img.imgSevenE{
+    margin-left:280px;
+    margin-top:-150px;
+}
+
+img.imgSevenD{
+    margin-left:700px;
+    margin-top:-150px;
+}
+
+.seven1, .seven2, .seven3, .seven4{position:absolute;}
+
+.seven1{
+    margin-top:-1000px;
+    margin-left:280px;
+}
+
+.seven2{
+    margin-top:-800px;
+    margin-left:1000px;
+}
+
+.seven3{
+    margin-top:-580px;
+    margin-left:230px;
+}
+
+.seven4{
+    margin-top:-300px;
+    margin-left:1000px;
+}
+
+/*** Stage eight - puppet ***/
+.eight{
+    margin-top:-60px;
+    height:100vh;
+    text-align:center;
+}
+
+.imgEightA{
+    width:80%;
+}
+
+.eight1, .eight2{
+    position:absolute;
+}
+
+.eight1{
+    width:25%;
+    margin-top:-650px;
+    margin-left:780px;
+}
+
+.eight2{
+    width:20%;
+    text-align:left;
+    margin-top:-240px;
+    margin-left:400px;
+}
+
+/*** Stage nine - Squid ***/
+.nine{
+    width:100%;
+    min-height:100vh;
+    margin-top:-200px;
+}
+
+.imgNineA{
+    width:109%;
+}
+
+.nine p{
+    position:absolute;
+}
+
+.nine1{
+    width:20%;
+    margin-top:-800px;
+    margin-left:940px;
+}
+
+.nine2{
+    width:30%;
+    margin-top:-450px;
+    margin-left:280px;
+}
+
+.nine3{
+    width:25%;
+    margin-top:-360px;
+    margin-left:460px;
+}
+
+/*** Stage ten - flowers ***/
+
+.ten{
+    display:block;
+    width:100%;
+    margin-top:-200px;
+margin-bottom:5%;}
+
+.ten img{
+    width:20%;
+    margin-left:20px;
+}
+
+.ten img.imgTenA{
+    width:20%;
+}
+
+.ten1, .ten2, .ten3{
+    position:absolute;
+    width:20%;
+    text-align:center;
+}
+
+.ten1{margin-left:10px;}
+.ten2{margin-left:350px;}
+
+.ten3{margin-left:650px;
+}
+
+/*** Stage Eleven - Puzzle ***/
+.eleven{
+    margin:5% auto;
+    position:relative;
+    text-align:center;
+}
+
+.imgElevenA{
+    width:40%;
+}
+
+.eleven1{
+    padding:14px;
+    background:white;
+    border:3px solid black;
+    margin:0 auto;
+    width:40%;
+}
+
+/*** Stage End - boatstruck take 2 ***/
+
+.end{
+    margin:5% auto;
+    text-align:center;
+}
+
+.imgEnd{
+    opacity:0.12;
+}
+
+h1.end1{
+    font-size:2rem;
+    margin-top:-500px;
+    margin-bottom:50px;
+}
+.end2{
+    margin-bottom:50px;
+    font-style:italic;
+}
